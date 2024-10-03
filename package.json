@@ -1,0 +1,50 @@
+{
+  "name": "@putout/add-reatom-component-name",
+  "private": true,
+  "version": "1.0.2",
+  "type": "module",
+  "description": "🐊Putout plugin adds reatom component name",
+  "homepage": "https://github.com/coderaiser/putout/tree/v24.0.2/packages/plugin-typescript#readme",
+  "main": "lib/add-reatom-component-name.js",
+  "release": false,
+  "tag": false,
+  "changelog": false,
+  "scripts": {
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
+  },
+  "dependencies": {},
+  "keywords": [
+    "putout",
+    "putout-plugin",
+    "putout-plugin-convert",
+    "plugin",
+    "convert",
+    "generic",
+    "shorthand"
+  ],
+  "devDependencies": {
+    "@putout/test": "^10.0.0",
+    "c8": "^10.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-n": "^17.0.0",
+    "eslint-plugin-putout": "^22.0.0",
+    "madrun": "^10.0.0"
+  },
+  "peerDependencies": {
+    "putout": ">=31"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

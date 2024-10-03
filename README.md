@@ -1,0 +1,1 @@
+Copied from https://github.com/coderaiser/putout/tree/master/codemods/convert-any-to-primitive
